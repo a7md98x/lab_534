@@ -1,0 +1,23 @@
+{% extends "myapp/layout.html" %}
+
+{% block body %}
+
+
+
+
+    <div id = "db">
+        <h1 id="header">people list </h2>
+            {% for x in myapp %}
+                <span id ="item">{{x}}</span>
+            {% endfor %}
+    </div>       
+
+    <div id= "center">
+       
+        <a href="{% url 'myapp:add' %}">
+            <input type="button" value="Register" id ="button" >
+        </a>
+    </div>  
+       
+    
+{% endblock %}

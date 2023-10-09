@@ -1,0 +1,44 @@
+
+#db{
+    text-align: center;
+    border: 4px solid  grey;
+    border-radius: 7px;
+    border-width: fit-content;
+    display: inline-flexbox;
+    padding: 5px;
+
+  }
+#center{
+    text-align: center;
+    display: block;
+    margin: 20px 20px 20px;
+    
+    
+}
+
+#button{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    color: blue;
+    
+    
+    
+    
+}
+#header{
+
+    text-align: center;
+ 
+}
+#item{
+    font-size: 20px;
+    border: 1px solid;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 0px;
+    
+    margin: 1px;
+}

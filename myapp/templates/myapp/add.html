@@ -1,0 +1,23 @@
+{% extends "myapp/layout.html" %}
+
+{% block body %}
+    <h1>Register:</h1>
+
+    <form action="{% url 'myapp:add' %}" method="post" >
+        {% csrf_token %}
+        <div id ="db">
+            {{ form.as_p }}
+            <input type = "submit">
+        </div>
+    </form>
+    
+    <div id= "center">
+       
+        <a href="{% url 'myapp:index' %}">
+            <input type="button" value="Veiw List" id ="button" >
+        </a>
+    </div> 
+{% endblock %}
+
+
+ 
